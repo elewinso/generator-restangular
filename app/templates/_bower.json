@@ -6,7 +6,8 @@
         "angular": "<%= angularVersion %>",
         "angular-route": "<%= angularVersion %>",
         "restangular": "<%= restangularVersion %>",
-        "jquery": "<%= jqueryVersion %>"
+        "jquery": "<%= jqueryVersion %>",
+        "bootstrap": "<%= bootstrapVersion %>"
     },
     "devDependencies": {
         "angular-mocks": "<%= angularVersion %>",
@@ -27,7 +28,12 @@
         },
         "jquery": {
             "js": "jquery.min.js"
-        }
+        },
+        "bootstrap":{
+            "js": "dist/js/bootstrap.min.js",
+            "css": "dist/css/*.min.css",
+            "fonts":"dist/fonts/*"
+        }        
     }
 }
 

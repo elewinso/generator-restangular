@@ -56,7 +56,8 @@ RestangularGenerator.prototype.askFor = function askFor() {
         bowerDeps = [
             "jquery",
             "restangular",
-            "angular"
+            "angular",
+            "bootstrap"
         ];
 
     Q.all(bowerDeps.map(function (dep) {
